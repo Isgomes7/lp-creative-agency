@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+3:wght@700&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./src/js/script.js"></script>
+    <title>Landing page - Creative Agency</title>
+</head>
+
+<body>
+    <header class="py-large sticky top-0 w-full bg-white z-20 max-[768px]:py-trim">
+        <div class="overlay bg-[rgba(0,_0,_0,_.5)] fixed inset-0 hidden"></div>
+        <div class="container">
+            <div class="flex items-center justify-between">
+                <img src="./src/images/logo.png" alt="logo">
+                <div
+                    class="flex items-center gap-x-large max-[768px]:invisible max-[768px]:opacity-0 max-[768px]:fixed max-[768px]:top-0 max-[768px]:right-[-250px] max-[768px]:duration-500 max-[768px]:h-full max-[768px]:w-10/12 relative">
+                    <i data-lucide="x" class="close hidden text-black w-[30px] h-[30px] absolute top-[30px] right-[30px] max-[768px]:block"></i>
+                    <ul class="flex gap-x-large">
+                        <li>
+                            <a href="#"
+                                class="text-gray-01 font-normal text-[1.8rem] duration-300 py-gap relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:rounded-[30px] after:bg-black after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full hover:text-black hover:font-semibold">
+                                Tournaments
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-gray-01 font-normal text-[1.8rem] duration-300 py-gap relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:rounded-[30px] after:bg-black after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full hover:text-black hover:font-semibold">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="text-gray-01 font-normal text-[1.8rem] duration-300 py-gap relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:rounded-[30px] after:bg-black after:h-[4px] after:w-0 after:duration-500 after:ease-out after:hover:w-full hover:text-black hover:font-semibold">
+                                Portifolio
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="btn-black"><span class="span-white">Get in touch</span></button>
+                </div>
+                <div class="menu">
+                    <img src="./src/images/menu.png" alt="menu">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-01">
+            <div class="container max-[768px]:px-0">
+                <div class="grid grid-cols-[auto_auto_auto] max-[768px]:grid-cols-1 max-[768px]:gap-y-trim">
+                    <div class="bar mt-trim mr-trim-small max-[768px]:mx-trim-small"></div>
+                    <div class="flex flex-col gap-y-trim max-[768px]:px-trim-small">
+                        <h1 class="max-w-[470px]">Where Design Meets Innovation!</h1>
+                        <p class="text-[rgba(31,_31,_57,_0.70)] font-normal text-[2.8rem] max-w-[530px] leading-[1.3]">
+                            Whether you're a startup looking to establish you brand identity or an established
+                            business aiming to refresh your image, we've got the creative firepower to make it
+                            happen.</p>
+                        <button class="btn-black"><span class="span-white">let's talk</span></button>
+                    </div>
+                    <picture>
+                        <source srcset="./src/images/section-01-img-mobile.png" media="(max-width: 768px)" />
+                        <img src="./src/images/section-01-img.png" alt="section-01-img">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="section-02 bg-black">
+            <div class="container">
+                <div class="grid grid-cols-[200px_1fr] gap-x-trim max-[768px]:grid-cols-1 max-[768px]:gap-y-trim">
+                    <p class="text-white font-normal text-[2.2rem]">Our Services</p>
+                    <div class="flex flex-col gap-y-trim">
+                        <div>
+                            <div
+                                class="item-faq flex items-center justify-between border-b border-solid border-[rgba(255,_255,_255,_0.70)] pb-trim cursor-pointer duration-500 hover:opacity-80">
+                                <p class="text-white font-medium text-[4rem]">Visual Branding</p>
+                                <i data-lucide="chevron-down" class="text-white w-[41px] h-[41px] duration-500"></i>
+                            </div>
+                            <div
+                                class="item-faq-content border-b border-solid border-[rgba(255,_255,_255,_0.70)] py-trim hidden">
+                                <p class="text-[rgba(255,_255,_255,_0.70)] font-normal text-[2.8rem] leading-[48px]">
+                                    Your brand is more than just a logo; it's the essence of your business. We create
+                                    compeling brand identities than tell your unique story and resonate with your target
+                                    audience.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="item-faq flex items-center justify-between border-b border-solid border-[rgba(255,_255,_255,_0.70)] pb-trim cursor-pointer duration-500 hover:opacity-80">
+                                <p class="text-white font-medium text-[4rem]">Creative Campaign</p>
+                                <i data-lucide="chevron-down" class="text-white w-[41px] h-[41px] duration-500"></i>
+                            </div>
+                            <div
+                                class="item-faq-content border-b border-solid border-[rgba(255,_255,_255,_0.70)] py-trim hidden">
+                                <p class="text-[rgba(255,_255,_255,_0.70)] font-normal text-[2.8rem] leading-[48px]">
+                                    Your brand is more than just a logo; it's the essence of your business. We create
+                                    compeling brand identities than tell your unique story and resonate with your target
+                                    audience.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="item-faq flex items-center justify-between border-b border-solid border-[rgba(255,_255,_255,_0.70)] pb-trim cursor-pointer duration-500 hover:opacity-80">
+                                <p class="text-white font-medium text-[4rem]">UI/UX Design</p>
+                                <i data-lucide="chevron-down" class="text-white w-[41px] h-[41px] duration-500"></i>
+                            </div>
+                            <div
+                                class="item-faq-content border-b border-solid border-[rgba(255,_255,_255,_0.70)] py-trim hidden">
+                                <p class="text-[rgba(255,_255,_255,_0.70)] font-normal text-[2.8rem] leading-[48px]">
+                                    Your brand is more than just a logo; it's the essence of your business. We create
+                                    compeling brand identities than tell your unique story and resonate with your target
+                                    audience.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div
+                                class="item-faq flex items-center justify-between border-b border-solid border-[rgba(255,_255,_255,_0.70)] pb-trim cursor-pointer duration-500 hover:opacity-80">
+                                <p class="text-white font-medium text-[4rem]">Development</p>
+                                <i data-lucide="chevron-down" class="text-white w-[41px] h-[41px] duration-500"></i>
+                            </div>
+                            <div
+                                class="item-faq-content border-b border-solid border-[rgba(255,_255,_255,_0.70)] py-trim hidden">
+                                <p class="text-[rgba(255,_255,_255,_0.70)] font-normal text-[2.8rem] leading-[48px]">
+                                    Your brand is more than just a logo; it's the essence of your business. We create
+                                    compeling brand identities than tell your unique story and resonate with your target
+                                    audience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-03">
+            <div class="container">
+                <div class="grid grid-cols-[auto_auto] gap-x-trim max-[768px]:grid-cols-1 max-[768px]:gap-y-trim">
+                    <p class="text-black font-normal text-[2.2rem] mt-trim">Our Portifolio</p>
+                    <div>
+                        <h2>We envision a world where every idea, product, or service is brought to life through
+                            exceptional design.</h2>
+                        <div class="grid grid-cols-2 gap-trim mt-big max-[768px]:grid-cols-1">
+                            <div
+                                class="flex flex-col items-start gap-y-trim cursor-pointer duration-500 hover:brightness-110">
+                                <img src="./src/images/section-03-img-01.png" alt="section-03-img-01">
+                                <div>
+                                    <h3><b>Daily app</b> - increasing your productivity</h3>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col items-start gap-y-trim cursor-pointer duration-500 hover:brightness-110">
+                                <img src="./src/images/section-03-img-02.png" alt="section-03-img-02">
+                                <div>
+                                    <h3><b>Daily app</b> - increasing your productivity</h3>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col items-start gap-y-trim cursor-pointer duration-500 hover:brightness-110">
+                                <img src="./src/images/section-03-img-03.png" alt="section-03-img-03">
+                                <div>
+                                    <h3><b>Daily app</b> - increasing your productivity</h3>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col items-start gap-y-trim cursor-pointer duration-500 hover:brightness-110">
+                                <img src="./src/images/section-03-img-04.png" alt="section-03-img-04">
+                                <div>
+                                    <h3><b>Daily app</b> - increasing your productivity</h3>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col items-start gap-y-trim cursor-pointer duration-500 hover:brightness-110">
+                                <img src="./src/images/section-03-img-05.png" alt="section-03-img-05">
+                                <div>
+                                    <h3><b>Daily app</b> - increasing your productivity</h3>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col items-start gap-y-trim cursor-pointer duration-500 hover:brightness-110">
+                                <img src="./src/images/section-03-img-06.png" alt="section-03-img-06">
+                                <div>
+                                    <h3><b>Daily app</b> - increasing your productivity</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-04 bg-black">
+            <div class="container">
+                <div class="grid grid-cols-[auto_auto] gap-x-trim max-[768px]:grid-cols-1 max-[768px]:gap-y-trim">
+                    <p class="text-white font-normal text-[2.2rem] mt-trim">Let's Collaborate</p>
+                    <div class="flex flex-col gap-y-large">
+                        <h2 class="text-white">Ready to turn your ideas into exceptional designs? Contact us today, and
+                            let's make
+                            something amazing together!</h2>
+                        <button class="btn-white"><span class="span-black">Let's talk</span></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-black py-large">
+        <div class="container">
+            <div
+                class="grid grid-cols-[auto_auto_auto_auto] justify-between max-[768px]:grid-cols-2 max-[768px]:gap-y-trim">
+                <div class="flex flex-col items-start gap-y-trim max-[768px]:col-span-2">
+                    <img src="./src/images/logo-footer.png" alt="logo-footer">
+                    <p class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[1.8rem] leading-[34px] max-w-[314px]">
+                        Creative is where your imagination
+                        and our expertise converge to create desgin solutions that elevate
+                        your brand and set you apart from the competition.</p>
+                    <p class="text-white font-semibold text-[2.4rem]">hello@creativo.com</p>
+                    <p class="text-white font-semibold text-[2.4rem]">+1-800-123-4567</p>
+                </div>
+                <div class="flex flex-col gap-y-trim">
+                    <h4>Company</h4>
+                    <ul class="flex flex-col gap-y-trim">
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">About</li>
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">Services</li>
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">Careers</li>
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">Blog</li>
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">Pricing</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-y-trim">
+                    <h4>Contact</h4>
+                    <ul class="flex flex-col gap-y-trim">
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">About</li>
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">Services</li>
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">Careers</li>
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">Blog</li>
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">Pricing</li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-y-trim">
+                    <h4>Discover</h4>
+                    <ul class="flex flex-col gap-y-trim">
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">Affiliate</li>
+                        <li class="text-[rgba(255,_255,_255,_0.50)] font-normal text-[2rem]">Partner Program</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="attribution">
+        <p>
+            Coded by <a href="https://github.com/Isgomes7" title="Isgomes7">ISGOMES7</a> 👻.
+        </p>
+    </div>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
